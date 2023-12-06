@@ -1,0 +1,8 @@
+Algoritmo 01:
+O primeiro algoritmo percorre a lista de 0 a n-1, enquanto o segundo percorre de 1 a n. Isso resulta em uma complexidade de tempo quadrática, O(n^2), devido ao aninhamento dos loops.
+
+Algoritmo 02:
+No segundo algoritmo, o primeiro loop dobra o valor de i a cada iteração, o que significa que o loop será executado logaritmicamente em relação a n. O segundo loop ainda percorre de 1 a n. Portanto, a complexidade de tempo total é O(n log n).
+
+Algoritmo 03:
+No terceiro algoritmo, a complexidade de tempo no melhor caso é O(n). Isso ocorre porque, no melhor cenário, apenas um único loop é necessário para percorrer a lista, resultando em uma execução linear em relação ao tamanho da lista.
