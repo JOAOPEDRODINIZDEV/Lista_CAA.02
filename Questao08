@@ -1,0 +1,15 @@
+PRIMEIRO ALGORITMO:
+Pior Caso: O desempenho mais desafiador ocorre em O(n^2), especialmente quando o array está completamente desordenado, demandando trocas em todas as iterações.
+Melhor Caso: Apesar de ser O(n), o melhor caso ainda exige percorrer o array, mesmo que ele já esteja ordenado, para garantir que nenhuma troca seja necessária.
+
+SEGUNDO ALGORITMO:
+Pior Caso: Similar ao Bubble Sort clássico (Bubble Sort 1), este algoritmo também atinge O(n^2) no pior cenário, onde trocas podem acontecer em cada iteração.
+Melhor Caso: Em O(n), o desempenho é otimizado quando o array já está ordenado, eliminando a necessidade de trocas.
+
+AlgumaCoisa:
+Pior Caso: A complexidade atinge O(n^3) devido aos três loops aninhados. Isso ocorre independentemente da entrada, já que sempre há três níveis de iterações.
+Melhor Caso: Assim como no pior caso, a complexidade permanece O(n^3), pois a entrada não afeta a presença dos três loops aninhados.
+
+AlgumaCoisa2:
+Pior Caso: A função mantém uma complexidade de O(n^3) devido aos três loops aninhados, independentemente da entrada.
+Melhor Caso: A complexidade permanece O(n^3), pois a presença dos três loops aninhados não é influenciada pela entrada.
