@@ -1,0 +1,15 @@
+Pesquisa1:
+Pior Caso: O(log n) - A complexidade é logarítmica porque, a cada chamada recursiva, o tamanho do array é reduzido para 1/3 do tamanho anterior.
+Melhor Caso: Similar ao pior caso, em O(log n), pois a redução do tamanho do array é constante.
+
+Pesquisa2:
+Pior Caso: O(log n) - A complexidade é logarítmica devido à redução do tamanho do array para 3/5 do tamanho anterior a cada chamada recursiva.
+Melhor Caso: O(1) - No caso em que o tamanho do array é 1, a função retorna sem realizar chamadas recursivas, tornando-se uma operação constante.
+
+Pesquisa3:
+Pior Caso: O(n log n) - A complexidade é n log n devido à divisão do array em 2/3 do tamanho anterior e à operação de ordenação a cada chamada recursiva.
+Melhor Caso: O(1) - No caso em que o tamanho do array é 1, a função retorna sem realizar chamadas recursivas, tornando-se uma operação constante.
+
+Enigma1 e Enigma2 (Quicksort):
+Pior Caso: O(n^2) - No cenário mais desafiador, o pivô escolhido sempre é o menor ou o maior elemento, resultando em partições desequilibradas e levando a uma complexidade quadrática.
+Melhor Caso: O(n log n) - Em situações ideais, o pivô divide o array em duas partes quase iguais, resultando em partições balanceadas e alcançando uma complexidade log-linear.
